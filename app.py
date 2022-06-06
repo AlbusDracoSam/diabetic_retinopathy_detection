@@ -3,7 +3,7 @@ import numpy as np
 import requests
 import tensorflow as tf
 
-model = tf.keras.models.load_model("model/DR_model.h5")
+model = tf.keras.models.load_model("model/DR_Model.h5")
 
 abc = {'Mild': 0, 'Moderate': 1, 'No': 2, 'Proliferative': 3, 'Severe': 4}
 
