@@ -17,7 +17,7 @@ def prediction():
         print(link)
         file_path = link
         content = requests.get(file_path).content
-        content = tf.image.decode_jpeg(content, channels=3)
+        content = tf.image.decode_png(content, channels=3)
         content = tf.cast(content, tf.float32)
         content /= 255.0
         content = tf.image.resize(content, [150, 150])
