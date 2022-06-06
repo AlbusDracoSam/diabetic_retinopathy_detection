@@ -32,7 +32,7 @@ def prediction():
 
         return 'hello'
     except KeyError:
-        return 'Welcome Please Enter like this https://diabeticretinopathydetection.herokuapp.com/?link=Give here the image link'
+        return 'Welcome Please Enter like this https://diabeticretinopathydetectionapi.herokuapp.com/?link=Give here the image link'
 
 
 if __name__ == '__main__':
